@@ -1,0 +1,48 @@
+/******************************************************************************
+                            Stylesheet for Boilerplate
+******************************************************************************/
+
+/* Root Value Stylings */
+:root {
+    --std-margin: 3rem;
+    --font-size: 1rem;
+    --font-color: white;
+    --background-color: #181818;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+/* Body Stylings */
+body {
+    background-color: var(--background-color);
+    margin: var(--std-margin);
+    font-size: var(--font-size);
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--font-color);
+}
+
+h1 {
+    font-size: 3rem;
+    color: white;
+    margin: 0px;
+    margin-top: 15px;
+    font-weight: 300;
+}
+
+.buttons-div > button {
+    background-color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 20px;
+    font-weight: 300;
+    outline: none;
+}

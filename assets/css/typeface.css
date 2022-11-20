@@ -1,0 +1,30 @@
+@font-face {
+  font-family: '';
+  src: url(../fonts/) format('woff');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: '';
+  src: url(../fonts/) format('woff');
+  font-style: bold;
+  font-weight: 600;
+}
+@font-face {
+  font-family: '';
+  src: url(../fonts/) format('woff');
+  font-style: italic;
+  font-weight: 600;
+}
+@font-face {
+  font-family: '';
+  src: url(../fonts/) format('woff');
+  font-style: bold;
+  font-weight: 700;
+}
+@font-face {
+  font-family: '';
+  src: url(../fonts/) format('woff');
+  font-style: italic;
+  font-weight: 700;
+}
